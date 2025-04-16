@@ -1,15 +1,27 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ title ?? site:name }}</title>
+        <title>{{ title ?? "Heavy 88" }}</title>
+        <link rel="stylesheet" href="{{ mix src="/css/tailwind.css" }}">
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script defer src="https://unpkg.com/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
     </head>
-    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
-            {{ template_content }}
-        </div>
+    <body class="bg-gray-100 font-sans leading-normal text-gray-500 relative min-h-screen overscroll-none" id="top">
+        <header class="max-w-7xl mx-auto">
+            {{ partial:nav }}
+        </header>
+        {{ template_content }}
+        {{ partial:footer }}    
+        
+        <script src="{{ mix src="/js/site.js" }}"></script>
     </body>
 </html>
