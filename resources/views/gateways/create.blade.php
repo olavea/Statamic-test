@@ -23,9 +23,24 @@
                     </div>
             
                 
-            </div>
+                </div>
+                <div>
+                    <label for="title">location</label>
+                    <div>
+                        <div>
+                            <input 
+                                type="text" 
+                                name="location" 
+                                id="location" 
+                                placeholder="🗺️ location">
+                        </div>
+
+                    </div>
             
-        </div>
+                
+                </div>
+            
+            </div>
         </div>
 
 
