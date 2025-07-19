@@ -6,7 +6,7 @@
     <div>
         <div>
         <h2>Name a New Omvei Gateway ⛵</h2>
-        <p>We just need a name from you to start.</p>
+        <p>You need a name and location to start.</p>
 
             <div>
                 <div>

@@ -7,8 +7,7 @@ use App\Models\Omvei;
 
 
 
-// I'm building a Minimal Viable Datamodel with as few distractions as possible
-// Create Omvei Gateway, in ep (16)
+// Create an Omvei Gateway, in ep (16)
 Route::get('/gateways/create', function () {
     // request()->validate([
     //     'name' => ['required', 'min:3'],
@@ -16,7 +15,7 @@ Route::get('/gateways/create', function () {
     return view('gateways.create');
 });
 
-// store your Omvei Gateway in the database 
+// store an Omvei Gateway in the database 
 Route::post('/gateways', function () {
     // request()->validate([
     //     'name' => ['required', 'min:3'],
@@ -31,8 +30,9 @@ Route::post('/gateways', function () {
 });
 
 Route::get('/gateways/edit', function () {
-    // or is this where a user should add locations?
-    dd('Edit Your named Gateway');
+    // This is where a user should edit her Omvei gateway, for example add locations and audio and text
+    // The edit.blade.php will go in the gateways folder
+    dd('Edit Your named Omvei Gateway');
 });
 
 // Route::get('/gateways/index', function () {
