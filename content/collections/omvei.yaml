@@ -2,6 +2,7 @@ title: Omvei
 template: omvei/show
 layout: layout
 revisions: false
+route: '/omvei/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
