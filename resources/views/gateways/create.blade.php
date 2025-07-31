@@ -5,8 +5,8 @@
 
     <div>
         <div>
-        <h2>Name a New Omvei Gateway ⛵</h2>
-        <p>You need a name and location to start.</p>
+        <h2>Name a New Omvei Stop ⛵</h2>
+        <p>You need a name to start creating your stop.</p>
 
             <div>
                 <div>
