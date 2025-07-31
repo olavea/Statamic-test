@@ -1,7 +1,8 @@
 <a href="/gateways/create">
-    <strong>Make a New Omvei Gateway ⛵</strong> 
+    <strong>Make a New Omvei Stop ⛵</strong> 
 </a>
-<h2>Your Omvei Gateways</h2>
+<h2>Your Omvei Stops</h2>
+<h3>Pick Stops to start Making a New Tour</h3>
 <ul>
     @foreach ($gateways as $gateway)
         <li>
