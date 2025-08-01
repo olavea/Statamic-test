@@ -19,32 +19,34 @@
                                 id="name" 
                                 placeholder="🥔 Potet på 🛴  ">
                         </div>
-
                     </div>
-            
-                
                 </div>
                 <div>
-                    <label for="title">location</label>
+                    <p>
+                    // The "Talking Link" should come later in the "edit" view 
+                    </p>
+                </div>
+                <div>
+                    <label for="title">Link to a Talking Tiny Tale</label>
                     <div>
                         <div>
                             <input 
                                 type="text" 
                                 name="location" 
                                 id="location" 
-                                placeholder="🗺️ location">
+                                placeholder="🎤 Talking Link">
                         </div>
-
                     </div>
-            
-                
                 </div>
-            
             </div>
         </div>
 
 
-
+        <div>
+            <p>
+                <!-- //br -->
+            </p>
+        </div>
     <div>
         <button type="button">Cancel</button>
         <button type="submit">Save</button>
