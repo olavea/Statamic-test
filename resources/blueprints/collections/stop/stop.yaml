@@ -1,0 +1,42 @@
+title: Stop
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: audio_file
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Audio File'
+              instructions: 'Upload an audio file for this stop'
+              validate:
+                - required
+                - 'mimes:mp3,wav,ogg,m4a,aac,flac'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
