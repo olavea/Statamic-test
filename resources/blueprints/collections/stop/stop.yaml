@@ -13,12 +13,6 @@ tabs:
               validate:
                 - required
           -
-            handle: template
-            field:
-              type: template
-              display: Template
-              localizable: true
-          -
             handle: audio_file
             field:
               max_files: 1
