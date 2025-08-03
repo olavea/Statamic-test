@@ -8,10 +8,10 @@
         {{ if audio_file }}
             <div class="audio-player">
                 <h3>Listen to this stop:</h3>
-                <audio controls>
-                    <source src="{{ audio_file:url }}" type="audio/{{ audio_file:extension }}">
-                    <p>Your browser doesn't support HTML5 audio. 
-                       <a href="{{ audio_file:url }}" download>Download the audio file</a>
+                <audio src="{{ audio_file:url }}" controls>
+                    <p>
+                        Your browser doesn't support HTML5 audio. 
+                        <a href="{{ audio_file:url }}" download>Download the audio file</a>
                     </p>
                 </audio>
                 
