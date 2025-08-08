@@ -1,10 +1,8 @@
-title: 'News Articles'
-template: default
+title: Omvei
+template: omvei/show
 layout: layout
-mount: bf672b88-8e5e-4a68-9021-e9575a62eac3
 revisions: false
-route: '/{mount}/{slug}'
-date: true
+route: '/omvei/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
